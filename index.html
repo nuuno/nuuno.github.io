@@ -19,6 +19,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T545K9Q');</script>
 <!-- End Google Tag Manager -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 
   <title>Global</title>
   <meta charset="utf-8">
@@ -75,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div id="intro" class="intro--banner">
                 <h1>never be<br>out of style.</h1>
                 <h2>Get Curated Apparel Right<br>To Your Inbox</h2>
-                <button onclick="myFunction()">Find Your Style
+                <button id="firstDiv"> Find Your Style
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,120.000000) scale(0.100000,-0.100000)">
                     <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
@@ -94,11 +97,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img id="background" src="assets/img/pic7.png" alt="Welcome">
                 <img id="background" src="assets/img/pic8.png" alt="Welcome">
               </div>
-              <script>
-function myFunction() {
-    window.open("https://www.google.com");
-}
-</script>
+
+
+
+
+
+
+
 
           <script>
 var myIndex = 0;
@@ -200,7 +205,7 @@ function carousel() {
 
           <li class="l-section section">
             <div class="about">
-              <div class="about--banner"><br><br><br>
+              <div class="about--banner" id="div_id"><br><br><br>
                 <h2>We believe<br>in making<br>people feel<br>good.</h2>
                 <a href="#0">
                   <span>
@@ -212,9 +217,22 @@ function carousel() {
                   </span>
                 </a>
                 <img src="assets/img/man1.jpg" alt="About Us">
-                <button class="btn-background" onclick="myFunction()">Find Your Style </button>
+                <button id="her" onclick="myFunction()">Find Your Style For Her </button>
+                <button id="him" onclick="myFunction1()">Find Your Style For Him</button>
+                <script>
+  function myFunction() {
+      window.open("https://www.google.com");
+  }
+  </script>
+
+  <script>
+function myFunction1() {
+window.open("https://www.google.com");
+}
+</script>
 
               </div>
+
               <!--<div class="about--options">
                 <a href="#0">
                   <h3>Winners</h3>
@@ -252,7 +270,7 @@ function carousel() {
             <div class="hire">
               <h2>collab w/ us</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request" action="https://formspree.io/teamnuuno@gmail.com">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="New Merchant">
@@ -319,25 +337,7 @@ function carousel() {
 </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
-<!--script>
-  var markIndex = 0;
-  carousel();
 
-  function carousel() {
-    var i;
-    var x = document.getElementById("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    markIndex++;
-    if (markIndex > x.length) {markIndex = 1}
-    x[markIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 2 seconds
-  }
-</script> -->
 
 </body>
 </html>

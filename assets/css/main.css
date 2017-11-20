@@ -140,8 +140,9 @@ sub {
     position: absolute;
     top: -15px;
     right: 0px;
+  }
 }
-}
+
 svg:not(:root) {
     overflow: hidden
 }
@@ -353,7 +354,7 @@ body {
     z-index: 10
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 736px) {
     .l-side-nav {
         display: none
     }
@@ -610,7 +611,7 @@ body {
     transition: opacity .4s ease-in-out .4s
 }
 
-@media (max-width: 767px) {
+@media (max-width: 736px) {
     .header--cta {
         display: none
     }
@@ -822,7 +823,7 @@ body {
     right: 0px
 
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 568px){
 .intro--banner img {
     position: absolute;
     bottom: 23px;
@@ -1176,15 +1177,26 @@ body {
     height: 475px
 }
 
-.about--banner button {
+.about--banner #her {
     position: relative;
     padding: 5px 17px 5px 12px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #f5b961;
+    background-color: #ff7291;
     border: none;
     right: 80px
 }
+
+.about--banner #him {
+    position: relative;
+    padding: 5px 17px 5px 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #4c90ff;
+    border: none;
+    right: 70px
+}
+
 .about--banner::before {
     content: "";
     position: absolute;
