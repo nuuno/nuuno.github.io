@@ -781,7 +781,7 @@ body {
     font-family: "Vollkorn", sans-serif;
 }
 
-.intro--banner button {
+.intro--banner span {
     position: relative;
     padding: 5px 17px 5px 12px;
     font-weight: 700;
@@ -790,7 +790,7 @@ body {
     border: none
 }
 
-.intro--banner button .btn-background {
+.intro--banner span .btn-background {
     position: absolute;
     top: 0;
     left: 23px;
@@ -802,15 +802,15 @@ body {
     transition: left .2s ease-in-out
 }
 
-.intro--banner button:hover .btn-background {
+.intro--banner span:hover .btn-background {
     left: 0
 }
 
-.intro--banner button:focus {
+.intro--banner span:focus {
     outline: none
 }
 
-.intro--banner button svg {
+.intro--banner span svg {
     position: relative;
     left: 5px;
     width: 15px;
