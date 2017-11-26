@@ -168,7 +168,7 @@ samp {
     font-size: 1em
 }
 
-button,
+/*button,*/
 select,
 textarea {
     color: inherit;
@@ -189,17 +189,17 @@ optgroup {
   margin: 0
 }
 
-button {
+/*button {
     overflow: visible
 }
-
-button,
+*/
+/*button,*/
 select {
     text-transform: none
 }
 
-button,
-html input[type="button"],
+/*button,*/
+/*html input[type="button"],*/
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
@@ -823,6 +823,28 @@ body {
     right: 0px
 
 }
+
+.intro--banner #her {
+  position: relative;
+  padding: 5px 17px 5px 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ff7291;
+  border: none;
+  right: 0px
+
+}
+
+.intro--banner #him {
+  position: relative;
+  padding: 5px 17px 5px 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #4c90ff;
+  border: none;
+  right: 0px
+
+}
 @media screen and (max-width: 568px){
 .intro--banner img {
     position: absolute;
@@ -1182,7 +1204,7 @@ body {
     padding: 5px 17px 5px 12px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ff7291;
+    background-color: #ffb651;
     border: none;
     right: 80px
 }
