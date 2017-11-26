@@ -826,7 +826,7 @@ body {
 
 .intro--banner #her {
   position: relative;
-  padding: 5px 17px 5px 12px;
+  padding: 10px 23px 9px 17px;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ff7291;
@@ -837,13 +837,21 @@ body {
 
 .intro--banner #him {
   position: relative;
-  padding: 5px 17px 5px 12px;
+  padding: 10px 23px 9px 17px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #4c90ff;
+  background-color: #72a8ff;
   border: none;
   right: 0px
 
+}
+
+#her:hover{
+  background-color:#ff476f;
+}
+
+#him:hover{
+  background-color:#4c90ff;
 }
 @media screen and (max-width: 568px){
 .intro--banner img {
@@ -1199,25 +1207,31 @@ body {
     height: 475px
 }
 
-.about--banner #her {
+.about--banner #medium {
     position: relative;
-    padding: 5px 17px 5px 12px;
+    padding: 9px 23px 10px 17px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ffb651;
+    background-color: #ffcb84;
     border: none;
     right: 80px
 }
 
+#medium:hover {
+  background-color: #ffb651; 
+}
+
 .about--banner #him {
     position: relative;
-    padding: 5px 17px 5px 12px;
+    padding: 9px 23px 10px 17px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #4c90ff;
     border: none;
     right: 70px
 }
+
+
 
 .about--banner::before {
     content: "";
