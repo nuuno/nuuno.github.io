@@ -826,7 +826,7 @@ body {
 
 .intro--banner #her {
   position: relative;
-  padding: 10px 23px 9px 17px;
+  padding: 10px 17px 10px 17px;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ff7291;
@@ -837,7 +837,7 @@ body {
 
 .intro--banner #him {
   position: relative;
-  padding: 10px 23px 9px 17px;
+  padding: 10px 17px 10px 17px;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #72a8ff;
@@ -1218,7 +1218,7 @@ body {
 }
 
 #medium:hover {
-  background-color: #ffb651; 
+  background-color: #ffb651;
 }
 
 .about--banner #him {
